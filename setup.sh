@@ -2,7 +2,7 @@
 set -e
 
 echo ""
-echo " GuideMate — Setup"
+echo " ScreenSage — Setup"
 echo " =================="
 
 if ! command -v python3 &>/dev/null; then
@@ -18,6 +18,6 @@ venv/bin/pip install --quiet -r assistant/requirements.txt
 
 echo ""
 echo " Setup complete."
-echo " Run './run.sh' to start GuideMate."
+echo " Run './run.sh' to start ScreenSage."
 echo " API keys will be asked for on first launch."
 echo ""

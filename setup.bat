@@ -25,6 +25,6 @@ if errorlevel 1 (
 
 echo.
 echo  Setup complete.
-echo  Run 'run.bat' to start GuideMate.
+echo  Run 'run.bat' to start ScreenSage.
 echo  API keys will be asked for on first launch.
 echo.
