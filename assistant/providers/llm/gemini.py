@@ -17,7 +17,7 @@ Rules:
 - Be specific: use exact menu names, button labels, keyboard shortcuts.
 - If a feature is not visible on screen, tell the user exactly where to navigate.
 - Final answer must be plain text numbered steps only. No markdown, no bullet points.
-- Max 6 steps."""
+- Max 10 steps."""
 
 _TOOLS = [types.Tool(function_declarations=[
     types.FunctionDeclaration(
@@ -105,7 +105,7 @@ class GeminiLLM(LLMProvider):
             image_part,
         ]))
 
-        max_iterations = 6
+        max_iterations = 10
         for iteration in range(max_iterations):
             print(f"\n[llm] iteration {iteration + 1} — calling model...")
             response = self._client.models.generate_content(
