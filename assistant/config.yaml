@@ -1,0 +1,12 @@
+stt: deepgram
+llm: gemini
+
+deepgram:
+  api_key: ${DEEPGRAM_API_KEY}
+
+gemini:
+  api_key: ${GEMINI_API_KEY}
+  model: gemini-2.0-flash
+
+serper:
+  api_key: ${SERPER_API_KEY}

@@ -1,0 +1,26 @@
+{
+  "word_page_number": {
+    "hint": "Page numbers are inserted via the Insert tab in Microsoft Word"
+  },
+  "coupon_issue": {
+    "hint": "Coupons may require a minimum cart value or may have expired"
+  },
+  "refund_flow": {
+    "hint": "Refunds are usually found under Orders or Account settings"
+  },
+  "copy_paste": {
+    "hint": "Use Ctrl+C to copy and Ctrl+V to paste. Right-click also shows these options"
+  },
+  "save_file": {
+    "hint": "Use Ctrl+S to save, or File > Save As for a new location"
+  },
+  "print_document": {
+    "hint": "Use Ctrl+P to open the print dialog"
+  },
+  "zoom_in": {
+    "hint": "Use Ctrl+Plus or the View menu to zoom in"
+  },
+  "find_text": {
+    "hint": "Use Ctrl+F to open the Find dialog in most applications"
+  }
+}
