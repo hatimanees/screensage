@@ -99,7 +99,7 @@ while iterations < 6:
 |-----------|--------|
 | UI | PyQt6 — frameless, always-on-top, translucent |
 | STT | Deepgram SDK v6 — nova-2 model |
-| LLM | Gemini 2.0 Flash via `google-genai` |
+| LLM | Gemini 2.5 Flash via `google-genai` — configurable in `assistant/config.yaml` |
 | Web search | Serper API (optional) |
 | Session storage | Local JSON files in `sessions/` |
 
@@ -131,6 +131,22 @@ screensage/
         ├── recording_bar.py  ←  floating pill
         └── overlay.py        ←  result card
 ```
+
+---
+
+## Configuration
+
+Edit `assistant/config.yaml` to change providers or models:
+
+```yaml
+llm: gemini
+
+gemini:
+  api_key: ${GEMINI_API_KEY}
+  model: gemini-2.5-flash   # swap to gemini-2.0-flash, gemini-1.5-pro, etc.
+```
+
+Any Gemini model supported by the `google-genai` SDK works here.
 
 ---
 
