@@ -22,7 +22,7 @@ A local AI desktop assistant. Speak your problem, it screenshots your screen, an
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/screensage
+git clone https://github.com/hatimanees/screensage
 cd screensage
 
 # Windows
