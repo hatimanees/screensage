@@ -1,6 +1,6 @@
 @echo off
 echo.
-echo  GuideMate — Setup
+echo  ScreenSage — Setup
 echo  =================
 
 python --version >nul 2>&1
